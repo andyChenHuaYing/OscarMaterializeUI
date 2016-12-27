@@ -1,0 +1,142 @@
+
+html {
+    font-family: "Open Sans", Helvetica, Tahoma, Arial, "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
+}
+
+.nav-fixed-position {
+    margin-top: 56px;
+}
+
+@media only screen and (min-width: 994px) {
+    .nav-fixed-position {
+        margin-top: 64px;
+    }
+}
+
+@media only screen and (min-width: 994px) {
+    #content {
+        margin-left: 240px;
+    }
+}
+
+#sidebar > nav {
+    height: 100%;
+}
+
+.sideNav > ul a {
+    height: 46px;
+    line-height: 46px;
+}
+
+/* .sideBar a{
+     height:46px;
+     line-height: 46px;;
+ }*/
+
+.side-nav .collapsible-accordion {
+    line-height: 46px;
+}
+
+.dropdown-content li > a {
+    font-size: 14px;
+    color: #26a69a;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.sideNav .side-nav li {
+    padding: 0;
+}
+
+.sideNav .side-nav li i {
+    padding: 0;
+    margin-right: 5px;
+
+}
+
+.sideNav .no-padding .collapsible-header i {
+    font-size: 1rem;
+    margin-right: 0;
+}
+
+.sideNav .no-padding .collapsible-header {
+    font-size: 1rem;
+    margin-right: 0;
+}
+
+.sideNav .no-padding .collapsible-header {
+    padding-left: 8px;
+    margin: 0;
+}
+
+#slide-out {
+    height: 100%;
+}
+
+.sideNav .side-nav .collapsible-body a {
+    margin-left: 37px;
+    margin-right: 0;
+    padding: 0;
+}
+
+/*TAB样式*/
+.tabs .tab a:hover {
+
+}
+
+.tabs .indicator {
+    background-color: #26a69a;
+}
+
+.tabHeader .tabs .active {
+    color: #26a69a;
+}
+
+.tabHeader .tabs a {
+    color: #80cbc4;
+    cursor: pointer;
+}
+
+.tabHeader .tabs a:hover {
+    color: #26a69a;
+}
+
+.tabHeader .tabs .active {
+    color: #26a69a;
+}
+
+.transformShow {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -ms-transition-duration: 250ms;
+    -o-transition-duration: 250ms;
+    transition-duration: 250ms;
+}
+
+.transformHidden {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -ms-transition-duration: 250ms;
+    -o-transition-duration: 250ms;
+    transition-duration: 250ms;
+}
+
+.sideNav .side-nav .no-padding .collapsible-header {
+    position: relative;
+}
+
+.sideNav .side-nav .no-padding .collapsible-header .secondIcon {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
