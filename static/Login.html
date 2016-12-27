@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Html</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="js/lib/materialize-css/css/materialize.css" media="screen,projection"/>
+    <link rel="stylesheet" href="css/oscar-materialize-css-ui.css">
+</head>
+<body class="blue lighten-3">
+<div class="login-content">
+    <div class="row white z-depth-3">
+        <div class="logo"><h5 class="teal-text">System Logo Input Here</h5></div>
+        <form onsubmit="return false" class="col s12">
+            <div class="input-field col s12">
+                <i class="mdi-action-account-circle prefix"></i>
+                <input id="username" type="text" class="validate" placeholder="username">
+            </div>
+
+            <div class="input-field col s12">
+                <i class="mdi-action-lock-outline prefix"></i>
+                <input id="password" type="password" placeholder="password" class="validate">
+            </div>
+
+            <div class="row login-form-buttons">
+                <button class="btn waves-effect waves-light offset-s1  col s4" type="submit" name="action">
+                    <i class="mdi-action-done"></i>
+                </button>
+
+                <button class="btn waves-effect waves-light grey offset-s2 col s4" type="reset">
+                    <i class="mdi-navigation-refresh"></i>
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!--Import js here-->
+<script src="js/lib/jquery/jquery-2.1.1.min.js"></script>
+<script src="js/Login.js"></script>
+</body>
+</html>

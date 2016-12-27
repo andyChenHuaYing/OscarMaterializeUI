@@ -140,3 +140,27 @@ html {
     right: 15px;
     top: 0;
 }
+
+.login-content {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.login-content > div {
+    max-width: 360px;
+    background-color: white;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.login-form-buttons > button{
+    margin-top:10px;
+}
