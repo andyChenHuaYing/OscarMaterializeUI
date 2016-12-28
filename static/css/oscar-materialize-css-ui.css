@@ -161,6 +161,39 @@ html {
     padding-top: 6px;
 }
 
-.login-form-buttons > button{
-    margin-top:10px;
+.login-form-buttons > button {
+    margin-top: 10px;
 }
+
+/*Confirm Modal TODO ID selector should be replaced by class selector*/
+#systemConfirmModal {
+    height: 24%;
+    width: 34%;
+}
+
+#systemConfirmModal .modal-content {
+    padding: 0;
+}
+
+#systemConfirmModal .modal-content > h5 {
+    padding-left: 5px;
+}
+
+#systemConfirmModal .modal-content > hr {
+    border-top: 1px solid rgba(0, 0,0, 0.1)
+}
+
+#systemConfirmModal .modal-content > p {
+    padding-left: 5px;
+    text-align: center;
+
+
+}
+#systemConfirmModal .ctm-confirm-cancel {
+    margin-left: 20px;
+}
+
+#systemConfirmModal {
+    margin-top: 10%;
+}
+

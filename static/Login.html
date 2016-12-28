@@ -11,7 +11,8 @@
 <div class="login-content">
     <div class="row white z-depth-3">
         <div class="logo"><h5 class="teal-text">System Logo Input Here</h5></div>
-        <form onsubmit="return false" class="col s12">
+        <form onsubmit="return oscarUI.checkInput()" class="col s12">
+        <!--<form onsubmit="return showModal()" class="col s12">-->
             <div class="input-field col s12">
                 <i class="mdi-action-account-circle prefix"></i>
                 <input id="username" type="text" class="validate" placeholder="username">
@@ -38,6 +39,9 @@
 
 <!--Import js here-->
 <script src="js/lib/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/lib/materialize-css/js/materialize.js"></script>
+<script src="js/oscar-materialize-css-ui.js"></script>
 <script src="js/Login.js"></script>
+
 </body>
 </html>
