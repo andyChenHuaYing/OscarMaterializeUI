@@ -171,29 +171,46 @@ html {
     width: 34%;
 }
 
-#systemConfirmModal .modal-content {
+#systemConfirmModal .modal-content, #messageDialog .modal-content {
     padding: 0;
+    overflow: hidden;
 }
 
-#systemConfirmModal .modal-content > h5 {
+#systemConfirmModal .modal-content > h5, #messageDialog .modal-content > h5 {
     padding-left: 5px;
+    margin-top: 4px;
 }
 
-#systemConfirmModal .modal-content > hr {
-    border-top: 1px solid rgba(0, 0,0, 0.1)
+#systemConfirmModal .modal-content > hr, #messageDialog .modal-content > hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0
 }
 
 #systemConfirmModal .modal-content > p {
     padding-left: 5px;
     text-align: center;
 
-
 }
+
 #systemConfirmModal .ctm-confirm-cancel {
     margin-left: 20px;
 }
 
-#systemConfirmModal {
+#systemConfirmModal, #messageDialog {
     margin-top: 10%;
 }
 
+#systemConfirmModal > div, #messageDialog > div {
+    overflow: hidden;
+}
+
+#messageDialog {
+    height: 24%;
+    width: 24%;
+}
+
+
+#messageDialog .modal-content > p {
+    padding-left: 5px;
+    text-align: center;
+}
